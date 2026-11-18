@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <title>My projects</title>
+            <link rel="stylesheet" href="Styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="bg-img"></div>
+            <div class="content">
+                <header>
+                <nav>
+                    <h1 id="navHeader">LM IGNACIO</h1>
+                    <div id="navBar">
+                    <button type="button" id="navText1" class="navButton">Home</button>
+                    <button type="button" id="navText2" class="navButton">About Me</button>
+                    <button type="button" id="navText3" class="navButton">My Projects</button>
+                    <button type="button" id="navText4" class="navButton">Course Works</button>
+                    <button type="button" id="navText5" class="navButton">Contacts</button>
+                    <script>
+                    const homeBtn = document.getElementById('navText1');
+                    homeBtn.addEventListener('click', () => {
+                    window.location.href = 'Home.html';
+                    });
+
+                    const aboutBtn = document.getElementById('navText2');
+                    aboutBtn.addEventListener('click', () => {
+                    window.location.href = 'AboutMe.html';
+                    });
+
+                    const myProjectBtn = document.getElementById('navText3');
+                    myProjectBtn.addEventListener('click', () => {
+                    window.location.href = 'MyProjects.html';
+                    });
+
+                    const webDesignBtn = document.getElementById('navText4');
+                    webDesignBtn.addEventListener('click', () => {
+                    window.location.href = 'WebDesign.html';
+                    });
+
+                    const contactBtn = document.getElementById('navText5');
+                    contactBtn.addEventListener('click', () => {
+                    window.location.href = 'Contact.html';
+                    });
+                    </script>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <h2 class="pageTitle">My Projects</h2>
+                    <div>
+                        <h3 class="projectHeader">Personal Project</h3>
+                        <img src="Images/My_projects/Personal/Personal1.png" alt="Personal Project" height="190" width="300" id="personalPic1">
+                        <img src="Images/My_projects/Personal/Personal2.jpg" alt="Personal Project" height="190" width="300" id="personalPic2">
+                        <h4 id="personalTitle1">Snow Fox</h4>
+                        <h4 id="personalTitle2">Show</h4>
+                        <p id="personalPara1">a character I have created that was inspired by one of my friends and his favorite video game character!</p>
+                        <p id="personalPara2">A screenshot of an animation I have made featuring multiple characters I have made for myself and for my friends!</p>
+                    </div>
+                    <div>
+                        <h3 id="creativeHeader">Creative Project</h3>
+                        <img src="Images/My_projects/Creative/Creative1.png" alt="Creative Project" height="190" width="300"
+                        id="personalPic3">
+                        <img src="Images/My_projects/Creative/Creative2.png" alt="Creative Project" height="190" width="190"
+                        id="personalPic4">
+                        <h4 id="personalTitle3">Wolf's Rest</h4>
+                        <h4 id="personalTitle4">Bat Takemi</h4>
+                        <p id="personalPara3">A commission from a friend pertaining to a logo for a roblox game he was making alongside our group of friends!</p>
+                        <p id="personalPara4">A commission from another friend for their favorite video game character as their profile picture!</p>
+                    </div>
+                    <div>
+                        <h3 class="projectHeader">Academic Project</h3>
+                        <img src="Images/My_projects/Academic/Academic1.png" alt="Academic Project" height="250" width="350"
+                        id="personalPic5">
+                        <img src="Images/My_projects/Academic/Academic2.png" alt="Academic Project" height="300" width="200"
+                        id="personalPic6">
+                        <h4 id="personalTitle5">Star Rail</h4>
+                        <h4 id="personalTitle6">Voruna</h4>
+                        <p id="personalPara5">This artwork was in submission for a subject that tasked us to incorporate the writing system of the Philippines: Baybayin into a logo of our choosing! </p>
+                        <p id="personalPara6">This artwork was in submission for a subject that required Art Deco inspirations, featuring my favorite video game character!</p>
+                    </div>
+                </section>
+            </main>
+            </div>
+            <footer></footer>
+            <!-- mmhm foot 😋-->
+        </body>
+    </html>

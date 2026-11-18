@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <title>Contact</title>
+            <link rel="stylesheet" href="Styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="bg-img"></div>
+            <div class="content">
+                <header>
+                <nav>
+                    <h1 id="navHeader">LM IGNACIO</h1>
+                    <div id="navBar">
+                    <button type="button" id="navText1" class="navButton">Home</button>
+                    <button type="button" id="navText2" class="navButton">About Me</button>
+                    <button type="button" id="navText3" class="navButton">My Projects</button>
+                    <button type="button" id="navText4" class="navButton">Course Works</button>
+                    <button type="button" id="navText5" class="navButton">Contacts</button>
+                    <script>
+                    const homeBtn = document.getElementById('navText1');
+                    homeBtn.addEventListener('click', () => {
+                    window.location.href = 'Home.html';
+                    });
+
+                    const aboutBtn = document.getElementById('navText2');
+                    aboutBtn.addEventListener('click', () => {
+                    window.location.href = 'AboutMe.html';
+                    });
+
+                    const myProjectBtn = document.getElementById('navText3');
+                    myProjectBtn.addEventListener('click', () => {
+                    window.location.href = 'MyProjects.html';
+                    });
+
+                    const webDesignBtn = document.getElementById('navText4');
+                    webDesignBtn.addEventListener('click', () => {
+                    window.location.href = 'WebDesign.html';
+                    });
+
+                    const contactBtn = document.getElementById('navText5');
+                    contactBtn.addEventListener('click', () => {
+                    window.location.href = 'Contact.html';
+                    });
+                    </script>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <address>
+                        <h2>Contact information</h2>
+                        <p class="contactPara">Phone: 
+                            <a href="tel:976-260-1714">976-260-1714</a>
+                        </p>
+                        <p class="contactPara">Email: 
+                            <a href="mailto:totesnotabot0216@gmail.com">totesnotabot0216@gmail.com</a>
+                        </p>
+                        <p class="contactPara">Social Media:
+                            <a href="https://www.instagram.com/someoneusedushi/?hl=en">Instagram</a>
+                        </p>
+                    </address>
+                </section>
+                <section>
+                    <hr>
+                    <form>
+                        <fieldset>
+                        <legend>Contact Me!</legend>
+                        <label>Full Name:</label>
+                        <input required> 
+                        <br>
+                        <label>Email:</label>
+                        <input id="inputEmail" placeholder="example@email.com" required> 
+                        <br>
+                        <label for="message">Message:</label> <br>
+                        <textarea id="message"></textarea> <br>
+                        <button type="submit" id="formButton">Submit</button>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+            </div>
+        </body>
+    </html>
