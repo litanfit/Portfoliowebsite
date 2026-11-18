@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <title>Homepage</title>
+            <link rel="stylesheet" href="Styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="bg-img"></div>
+            <header>
+                <nav>
+                    <div id="navBar">
+                    <h1 id="navHeader">LM IGNACIO</h1>
+                    <button type="button" id="navText1" class="navButton">Home</button>
+                    <button type="button" id="navText2" class="navButton">About Me</button>
+                    <button type="button" id="navText3" class="navButton">My Projects</button>
+                    <button type="button" id="navText4" class="navButton">Course Works</button>
+                    <button type="button" id="navText5" class="navButton">Contacts</button>
+                    <script>
+                    const homeBtn = document.getElementById('navText1');
+                    homeBtn.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                    });
+
+                    const aboutBtn = document.getElementById('navText2');
+                    aboutBtn.addEventListener('click', () => {
+                    window.location.href = 'AboutMe.html';
+                    });
+
+                    const myProjectBtn = document.getElementById('navText3');
+                    myProjectBtn.addEventListener('click', () => {
+                    window.location.href = 'MyProjects.html';
+                    });
+
+                    const webDesignBtn = document.getElementById('navText4');
+                    webDesignBtn.addEventListener('click', () => {
+                    window.location.href = 'WebDesign.html';
+                    });
+
+                    const contactBtn = document.getElementById('navText5');
+                    contactBtn.addEventListener('click', () => {
+                    window.location.href = 'Contact.html';
+                    });
+                    </script>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <div>
+                        <h2 class="welMes">Welcome Message</h2>
+                        <div id="welMesPara">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quam omnis numquam praesentium consequuntur illo qui provident quos pariatur commodi possimus ut voluptatum! Earum rerum temporibus necessitatibus corporis exercitationem repellendus.</p>
+                        </div>
+                        <div class="welMesPic"><img src="Images/intro.png" alt="intro picture"></div>
+                    </div>
+                    <div>
+                        <h2 id="introHeader">Introduction</h2>
+                        <p id="introPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis quae, dignissimos illo libero blanditiis consequuntur architecto optio facere atque iure animi rerum mollitia quam nemo? Repudiandae saepe vero aliquam?</p>
+                        <video style="border-style:solid; border-color: beige;" width="720" height="410" controls muted autoplay loop id="introVideo">
+                            <source src="Images/introVid.mp4" type="video/mp4" >
+                        </video>
+                    </div>
+                    <div>
+                        <h2 class="homeHeader">Portfolio Overview</h2>
+                        <p class="homePara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum dolores sunt architecto eaque assumenda? Consectetur suscipit alias harum deleniti fugit repellendus porro ullam veritatis? Itaque cum atque illo aut!</p>
+                    </div>
+                </section>
+            </main>
+            </div>
+        </body>
+    </html>
