@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/BG-img.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: grey;
+}
+
+#navHeader {
+    font-family: "Gluten", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    border-style:ridge;
+    border-color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navText1,
+#navText2,
+#navText3,
+#navText4 {
+    font-size: 15px;
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: 2.5px;
+}
+
+#navText5 {
+    font-size: 15px;
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: 2.5px;
+}
+
+.navButton {
+    background-color: grey;
+    border: none;
+    transition: 0.4s;
+}
+
+.navButton:hover {
+    background-color: white;
+}
+
+#navBar, #navHeader {
+    display: inline-block;
+}
+
+legend {
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    margin: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    margin: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Gluten', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Akaya Kanadaka', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+}
+
+.welMesPic {
+    position: relative;
+    right: 0px;
+    left: 500px;
+    top: -45px;
+    bottom: 30px;
+    width: 670px;
+    height: 400px;
+}
+
+.welMesPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 100%;  
+}
+
+.welMes {
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    right: 50px;
+    left: 30px;
+}
+
+#welMesPara {
+    margin-left: 55px;
+    width: 250px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+}
+
+.homeHeader {
+    text-align: center;
+}
+
+.homePara {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#introHeader {
+    text-align: right;
+    margin-left: 880px;
+    width: 250px;
+    height: 1px;
+    position:relative;
+    top: 30px;
+    bottom: 30px;
+}
+
+#introPara {
+    text-align:right;
+    margin-left: 910px;
+    width: 250px;
+    height: 1px;
+    position:relative;
+    top: 60px;
+    bottom: 30px;
+}
+
+#introVideo {
+    position: relative;
+    right: 50px;
+    left: 50px;
+    top: -15px;
+    bottom: 30px;
+}
+
+.aboutHeader {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aboutPara {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.projectHeader {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#creativeHeader {
+    text-align: right;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#personalPic1, 
+#personalPic2 {
+    display:inline-block;
+}
+
+#personalPic3, 
+#personalPic4 {
+    display:inline-block;
+}
+
+#personalPic5, 
+#personalPic6 {
+    display:inline-block;
+}
+
+#personalPic1 {
+    position: relative;
+    right: 0px;
+    left: 150px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalPic2 {
+    position: relative;
+    right: 0px;
+    left: 450px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalPic3 {
+    position: relative;
+    right: 0px;
+    left: 155px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalPic4 {
+    position: relative;
+    right: 0px;
+    left: 510px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalPic5 {
+    position: relative;
+    right: 0px;
+    left: 125px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalPic6 {
+    position: relative;
+    right: 0px;
+    left: 450px;
+    top: -5px;
+    bottom: 30px;
+}
+
+#personalTitle1,
+#personalTitle2,
+#personalTitle3,
+#personalTitle4,
+#personalTitle5,
+#personalTitle6 {
+    display:inline-block;
+}
+
+#personalTitle1 {
+    position: relative;
+    right: 0px;
+    left: -390px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalTitle2 {
+    position: relative;
+    right: 0px;
+    left: 100px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalTitle3 {
+    position: relative;
+    right: 0px;
+    left: -290px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalTitle4 {
+    position: relative;
+    right: 0px;
+    left: 130px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalTitle5 {
+    position: relative;
+    right: 0px;
+    left: -330px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalTitle6 {
+    position: relative;
+    right: 0px;
+    left: 130px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#personalPara1 {
+    margin-left: 100px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#personalPara2 {
+    margin-left: 710px;
+    margin-bottom: 250px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#personalPara3 {
+    margin-left: 100px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#personalPara4 {
+    margin-left: 710px;
+    margin-bottom: 250px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#personalPara5 {
+    margin-left: 100px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#personalPara6 {
+    margin-left: 710px;
+    margin-bottom: 250px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: 20px;
+    bottom: 30px;
+    text-align: justify;
+}
+
+#cw1 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 150px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#cw2 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 150px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#cw3 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 160px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#cw4 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 300px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#cw5 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 300px;
+    top: 20px;
+    bottom: 0px;
+}
+
+#cw6 {
+    display:inline-block;
+    position: relative;
+    right: 0px;
+    left: 215px;
+    top: 20px;
+    bottom: 0px;
+}
+
+.cwDesc {
+    text-align: center;
+    margin: 20px;
+}
+
+.cwPara {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#cw2Desc {
+    margin-left: 710px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: -400px;
+    bottom: 30px;
+}
+
+#cw2Para {
+    margin-left: 600px;
+    width: 400px;
+    height: 1px;
+    position:relative;
+    top: -350px;
+    bottom: 30px;
+    text-align:center;
+}
+
+address {
+    margin: 20px;
+}
+
+.contactPara {
+    margin: 20px;
+}
+
+form {
+    margin-right: 90px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-right: 650px;
+}
+
+#formButton {
+    background-color: orange;
+    border: none;
+    transition: 0.4s;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+#formButton:hover {
+    background-color: rgb(172, 112, 0);
+}
+
+label {
+    font-family: 'Akaya Kanadaka', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    margin: 20px;
+}
+
+#inputEmail {
+    margin-left: 41px;
+}
+
+#message {
+    margin-left: 20px;
+    padding: 67px;
+}

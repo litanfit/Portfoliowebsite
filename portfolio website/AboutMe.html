@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <title>About Me</title>
+            <link rel="stylesheet" href="Styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="bg-img"></div>
+            <div class="content">
+                <header>
+                <nav>
+                    <h1 id="navHeader">LM IGNACIO</h1>
+                    <div id="navBar">
+                    <button type="button" id="navText1" class="navButton">Home</button>
+                    <button type="button" id="navText2" class="navButton">About Me</button>
+                    <button type="button" id="navText3" class="navButton">My Projects</button>
+                    <button type="button" id="navText4" class="navButton">Course Works</button>
+                    <button type="button" id="navText5" class="navButton">Contacts</button>
+                    <script>
+                    const homeBtn = document.getElementById('navText1');
+                    homeBtn.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                    });
+
+                    const aboutBtn = document.getElementById('navText2');
+                    aboutBtn.addEventListener('click', () => {
+                    window.location.href = 'AboutMe.html';
+                    });
+
+                    const myProjectBtn = document.getElementById('navText3');
+                    myProjectBtn.addEventListener('click', () => {
+                    window.location.href = 'MyProjects.html';
+                    });
+
+                    const webDesignBtn = document.getElementById('navText4');
+                    webDesignBtn.addEventListener('click', () => {
+                    window.location.href = 'WebDesign.html';
+                    });
+
+                    const contactBtn = document.getElementById('navText5');
+                    contactBtn.addEventListener('click', () => {
+                    window.location.href = 'Contact.html';
+                    });
+                    </script>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <h2>About Me!</h2>
+                    <div>
+                        <h3 class="aboutHeader">Personal Background</h3>
+                        <p class="aboutPara">Started with the simple beginnings of doodling in classes and in vacant hours, I grown to love making art with the help of my companions and my own interest on creating pieces of myself expressed in paper and eventually on digital screens!</p>
+                    </div>
+                    <div>
+                        <h3 class="aboutHeader">Interests</h3>
+                        <p class="aboutPara">My current interests include 3D artworks and animation ranging from mechanical figures to Anthropomorphic characters, cruising along highways on my motorcycle during sunsets, and playing and interacting with my friends!</p>
+                    </div>
+                    <div>
+                        <h3 class="aboutHeader">Skills</h3>
+                        <p class="aboutPara">I have learned to draw from various videos and tutorials in the internet alongside my friends who have develop farther than me for their advice and guidance. I have self taught myself alongside to maneuver and create in the 3D software Blender, creating multiple characters and a few animations to boot.</p>
+                    </div>
+                    <div>
+                        <h3 class="aboutHeader">Career Goals</h3>
+                        <p class="aboutPara"> I aspire to improve and improve until I am competent enough to be accepted into an animation studio and/or eventually create a web series for my own stories!</p>
+                    </div>
+                </section>
+            </main>
+            </div>
+        </body>
+    </html>
